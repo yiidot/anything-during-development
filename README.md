@@ -1,2 +1,2 @@
-# problems-during-development
-record problems during development.
+# anything-during-development
+record anything useful during development.
