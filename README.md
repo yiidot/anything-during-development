@@ -1,2 +1,2 @@
-# anything-during-development
+# anything-useful-during-development
 record anything useful during development.
