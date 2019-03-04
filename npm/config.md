@@ -14,4 +14,5 @@ npm config set strict-ssl false
 ```bash
 npm login --registry http://registry.npmjs.org
 npm publish --registry http://registry.npmjs.org
+cd a
 ```
