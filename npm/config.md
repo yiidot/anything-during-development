@@ -11,7 +11,7 @@ npm config set chromedriver_cdnurl https://npm.taobao.org/mirrors/chromedriver
 npm config set strict-ssl false
 ```
 4. 在使用淘宝镜像的情况下发布npm包
-```
+```bash
 npm login --registry http://registry.npmjs.org
 npm publish --registry http://registry.npmjs.org
 ```
