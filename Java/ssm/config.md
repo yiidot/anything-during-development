@@ -9,6 +9,7 @@
 </dependency>
 ```
 2.配置web.xml
+```xml
 <filter>  
     <filter-name>CORS</filter-name>  
     <filter-class>com.thetransactioncompany.cors.CORSFilter</filter-class>  
@@ -37,3 +38,4 @@
     <filter-name>CORS</filter-name>  
     <url-pattern>/*</url-pattern>  
 </filter-mapping>  
+```
