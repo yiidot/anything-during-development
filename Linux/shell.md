@@ -10,6 +10,6 @@ vim /etc/sysconfig/iptables-config
 tail -f catalina.sh
 ```
 3. 查看Tomcat进程
-```
+```shell
 ps -ef | grep tomcat
 ```
