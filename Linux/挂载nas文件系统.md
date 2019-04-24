@@ -1,4 +1,4 @@
-挂载/卸载nas文件系统
+### 挂载/卸载nas文件系统
 ```shell
 # 安装cifs-utils
 # 1. 检查是否安装了cifs-utils
