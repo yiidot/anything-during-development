@@ -29,3 +29,17 @@ chkconfig yourshell.sh on
 sudo mount -t cifs -o username=weihl,password=xxxxxxxxxxxx //192.168.100.109/Share /mnt/nas
 
 ```
+
+### 创建软连接使Tomcat的静态资源目录链接到nas目录
+1. 创建软连接使Tomcat的静态资源目录链接到nas目录
+```shell
+sudo ln -s -v /mnt/nas /root/tomcat/webapps/yourApp/filesRoot
+```
+2. 修改Tomcat/conf/context.xml
+```xml
+<Context>
+  <!-- 添加允许链接 -->
+  <Resources allowLinking="true" />
+</Context>
+```
+3. 重启Tomcat
