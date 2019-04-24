@@ -29,4 +29,10 @@ chmod +x /etc/rc.d/init.d/yourshell.sh
 cd /etc/rc.d/init.d
 chkconfig --add yourshell.sh
 chkconfig yourshell.sh on
+
+## 脚本必须包含以下注释头内容
+
+#!/bin/sh
+# chkconfig: 112 63 37
+
 ```
