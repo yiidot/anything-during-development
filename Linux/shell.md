@@ -15,6 +15,12 @@ ps -ef | grep tomcat
 ```
 4. 挂载/卸载nas文件系统
 ```shell
+# 安装cifs-utils
+# 1. 检查是否安装了cifs-utils
+rpm -q cifs-utils
+# 2. 安装cifs-utils
+yum install cifs-utils
+
 # 挂载
 sudo mount -t cifs -o username=weihl,password=xxxxxxxxxxxx //192.168.100.109/Share /mnt/nas
 # 卸载
