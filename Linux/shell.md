@@ -13,3 +13,10 @@ tail -f catalina.sh
 ```shell
 ps -ef | grep tomcat
 ```
+4. 挂载/卸载nas文件系统
+```shell
+// 挂载
+sudo mount -t cifs -o username=weihl,password=xxxxxxxxxxxx //192.168.100.109/Share /mnt/nas
+// 卸载
+sudo umount -v /mnt/nas
+```
