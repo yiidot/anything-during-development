@@ -30,7 +30,7 @@ sudo mount -t cifs -o username=weihl,password=xxxxxxxxxxxx //192.168.100.109/Sha
 
 ```
 
-### 创建软连接使Tomcat的静态资源目录链接到nas目录
+### 使Tomcat可读nas中的数据
 1. 创建软连接使Tomcat的静态资源目录链接到nas目录
 ```shell
 sudo ln -s -v /mnt/nas /root/tomcat/webapps/yourApp/filesRoot
