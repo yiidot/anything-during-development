@@ -22,4 +22,13 @@ setenforce 0
 # 关闭开机自启
 systemctl disable firewalld
 ```
+5. 开放防火墙端口(上面禁用防火墙不安全)
+```shell
+## Add
+firewall-cmd --permanent --zone=public --add-port=8080/tcp
+## Reload
+firewall-cmd --reload
+## 检查是否生效
+firewall-cmd --zone=public --query-port=8080/tcp
+```
 
