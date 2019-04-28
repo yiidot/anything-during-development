@@ -13,3 +13,13 @@ tail -f catalina.sh
 ```shell
 ps -ef | grep tomcat
 ```
+4. 禁用防火墙
+```shell
+# 关闭防火墙
+systemctl stop firewalld
+# 立即生效
+setenforce 0
+# 关闭开机自启
+systemctl disable firewalld
+```
+
