@@ -7,7 +7,7 @@ rpm -q cifs-utils
 yum install cifs-utils
 
 # 挂载
-sudo mount -t cifs -o username=weihl,password=xxxxxxxxxxxx //192.168.100.109/Share /mnt/nas
+sudo mount -t cifs -o username=weihl,password=xxxxxxxxxxxx,domain=yourdomain,vers=1.0 //192.168.100.109/Share /mnt/nas
 # 卸载
 sudo umount -v /mnt/nas
 
@@ -26,7 +26,7 @@ chkconfig yourshell.sh on
 #!/bin/sh
 # chkconfig: 112 63 37
 
-sudo mount -t cifs -o username=weihl,password=xxxxxxxxxxxx //192.168.100.109/Share /mnt/nas
+sudo mount -t cifs -o username=weihl,password=xxxxxxxxxxxx,domain=yourdomain,vers=1.0 //192.168.100.109/Share /mnt/nas
 
 ```
 
