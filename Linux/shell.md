@@ -31,4 +31,11 @@ firewall-cmd --reload
 ## 检查是否生效
 firewall-cmd --zone=public --query-port=8080/tcp
 ```
+6. 查看端口被哪个进程占用
+```shell
+## 安装lsof
+yum install lsof -y
+## 查看端口占用情况
+lsof -i:端口号
+```
 
