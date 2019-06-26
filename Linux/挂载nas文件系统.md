@@ -33,7 +33,7 @@ sudo mount -t cifs -o username=weihl,password=xxxxxxxxxxxx,domain=yourdomain,uid
 ### 使Tomcat可读nas中的数据
 1. 创建软连接使Tomcat的静态资源目录链接到nas目录
 ```shell
-sudo ln -s -v /mnt/nas /root/tomcat/webapps/yourApp/filesRoot
+sudo ln -s -v /mnt/nas /root/tomcat/webapps/bimEngineServer/FilesRoot
 ```
 2. 修改Tomcat/conf/context.xml
 ```xml
