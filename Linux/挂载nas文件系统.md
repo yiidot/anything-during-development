@@ -25,7 +25,9 @@ chkconfig yourshell.sh on
 
 #!/bin/sh
 # chkconfig: 112 63 37
-
+# umount
+sudo umount /mnt/nas
+# mount
 sudo mount -t cifs -o username=weihl,password=xxxxxxxxxxxx,domain=yourdomain,uid=1000,vers=1.0 //192.168.100.109/Share /mnt/nas
 
 ```
