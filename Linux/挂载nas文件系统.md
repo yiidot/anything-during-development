@@ -7,7 +7,7 @@ rpm -q cifs-utils
 yum install cifs-utils
 
 # 挂载 (domain,uid,vers可选)
-sudo mount -t cifs -o username=weihl,password=xxxxxxxxxxxx,domain=yourdomain,uid=1000,vers=1.0 //192.168.100.109/Share /mnt/nas
+sudo mount -t cifs -o username=weihl,password=940926,domain=zjjg,uid=1000,vers=1.0 //192.168.100.160/share /mnt/nas
 # 卸载
 sudo umount -v /mnt/nas
 
