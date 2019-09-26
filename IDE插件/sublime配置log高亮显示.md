@@ -47,4 +47,5 @@ contexts:
 命名为log.sublime-syntax
 
 log文件高亮后的显示：
+
 ![sublime-highlight-log](https://github.com/yiidot/anything-useful-during-development/blob/master/IDE%E6%8F%92%E4%BB%B6/sublime-highlight-log.png)
