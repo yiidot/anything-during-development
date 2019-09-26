@@ -45,3 +45,5 @@ contexts:
 2. 保存
 默认保存在/Users/yourname/Library/Application\ Support/Sublime Text 3/Packages/User
 命名为log.sublime-syntax
+
+log文件高亮后的显示：
