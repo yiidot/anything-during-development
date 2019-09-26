@@ -1,6 +1,5 @@
 1. 创建模板文件
 ```yaml
-# Tools-Packages-Package Development-New Syntax Definition
 %YAML 1.2
 ---
 # See http://www.sublimetext.com/docs/3/syntax.html
