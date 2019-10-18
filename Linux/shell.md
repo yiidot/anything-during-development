@@ -37,5 +37,7 @@ firewall-cmd --zone=public --query-port=8080/tcp
 yum install lsof -y
 ## 查看端口占用情况
 lsof -i:端口号
+
+npm config set registry https://registry.npm.taobao.org
 ```
 
