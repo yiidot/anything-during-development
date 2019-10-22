@@ -39,4 +39,9 @@ yum install lsof -y
 lsof -i:端口号
 
 ```
+7. 删除文件夹
+```shell
+# r 递归删除，f 强行删除
+rm -rf 文件夹
+```
 
