@@ -44,4 +44,8 @@ lsof -i:端口号
 # r 递归删除，f 强行删除
 rm -rf 文件夹
 ```
-
+8. 拷贝文件夹
+```shell
+# r 递归拷贝，否则如果存在子文件夹，则会报错 omitting directory
+cp -r a dirA dirB
+```
