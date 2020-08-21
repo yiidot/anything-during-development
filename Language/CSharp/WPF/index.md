@@ -18,7 +18,7 @@
 3.1 充满布局
 显式设置DataGridTextColumn的属性Width=“*” 实现DataGrid控件宽充满布局
 
-3.2
+3.2 设置Header居中
 ```xml
 <!-- 设置Header居中 -->
  <DataGrid.ColumnHeaderStyle>
