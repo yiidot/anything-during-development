@@ -1,3 +1,4 @@
+```shell
 # 自定义工作空间
 E:/0_Code
 # svn
@@ -29,3 +30,4 @@ $DEFAULT_RECIPIENTS
 $DEFAULT_REPLYTO
 $DEFAULT_SUBJECT
 $DEFAULT_CONTENT
+```
