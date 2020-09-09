@@ -1,3 +1,4 @@
+```shell
 # svn
 https://192.168.100.90/svn/Code/UPBIM/Branch/V1.1/UBServer/bimEngineServer
 # Local module directory
@@ -27,3 +28,4 @@ $DEFAULT_RECIPIENTS
 $DEFAULT_REPLYTO
 $DEFAULT_SUBJECT
 $DEFAULT_CONTENT
+```
