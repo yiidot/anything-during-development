@@ -1,3 +1,4 @@
+```shell
 # 自定义工作空间
 E:/0_Code
 # svn
@@ -21,3 +22,4 @@ start.bat
 # 构建后操作
 E-mail notification
 weihl@ai-eco.cn
+```
