@@ -53,3 +53,9 @@ cp -r a dirA dirB
 ```shell
 cat /etc/redhat-release
 ```
+10. 找不到make命令
+```shell
+# 需要安装gcc，执行一下就可以了：
+yum -y install gcc automake autoconf libtool make
+yum install gcc gcc-c++
+```
