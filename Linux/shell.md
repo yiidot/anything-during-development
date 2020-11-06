@@ -49,3 +49,7 @@ rm -rf 文件夹
 # r 递归拷贝，否则如果存在子文件夹，则会报错 omitting directory
 cp -r a dirA dirB
 ```
+9. 查看CentOS版本号
+```shell
+cat /etc/redhat-release
+```
